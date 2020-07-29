@@ -1,0 +1,40 @@
+dotnet new - oferece os modelos de projetos a serem criados.
+
+dotnet --version - verifica a última versão do .net instalado no pc.
+
+dotnet --list-sdks - lista as versões do .net instalados.
+
+dotnet new globaljson --sdk-version 2.2.202 - cria o json e define a versão da sdk que será criado o projeto.
+
+dotnet new sln --name QuickBuy - Cria o modelo "Solution File" do projeto.
+
+dotnet new classlib --name QuickBuy.Dominio - Cria o modelo "Class library" de domínio no projeto.
+
+dotnet new classlib --name QuickBuy.Repositorio - Cria o modelo "Class library" de repositório no projeto.
+
+dotnet new angular --name QuickBuy.web - Cria o modelo "ASP.NET Core with Angular" como parte executável no projeto.
+
+
+dotnet sln add "QuickBuy.Dominio\QuickBuy.Dominio.csproj" - adiciona o projeto Dominio à solução sln.
+_____________________________________________________________________________________
+Localizar com a tecla F4, o caminho do projeto - C:\wamp\www\.NetCore+Angular\QuickBuyEx\QuickBuy.web\ClientApp\
+
+ng - apresenta a versão globa do Angular e a versão utilizada no projeto.
+
+ng build - compila o projeto com base em Angular.
+
+ng serve - monta um servidor para rodar o projeto em Angular apenas, separado do .net
+
+npm start - inicia o servidor e permite utilizar todas as pastas do projeto para rodar o server de Angular separado do .net, realiza a compilação do projeto Angular.
+
+
+
+
+
+
+
+
+
+
+______________________________________________________________________________________
+caminho para o shell do mySql - C:\progarm Files\MySQL\MySQL Shell 8.0\bin\mysqlsh.exe
